@@ -177,7 +177,7 @@ $('document').ready(function(){
 			i=i+1;
 			$("p:nth-child("+i+")").fadeIn('slow').delay(1000);
 			if(i==50){
-				$("p:nth-child(55)").fadeOut('slow').promise().done(function () {
+				$("p:nth-child(58)").fadeOut('slow').promise().done(function () {
 					$('.cake').fadeIn('fast');
 				});
 				
